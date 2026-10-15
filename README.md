@@ -1,4 +1,4 @@
-# Cadelle · Interval Timer
+# Interval Plain · Interval Timer
 
 Native iPhone/iPad interval routine app, in development. Consumer reservation, shipping and production QA pending.
 
