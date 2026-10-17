@@ -1,5 +1,8 @@
 # Interval Plain · Routine Timer
 
+**Current App Review status — October17,2026:** Rejected; clarification/reconsideration is in progress. Not publicly released. Earlier submission milestones below are historical.
+
+
 **A native iPhone and iPad timer for work/rest routines, spoken cues and a reusable local library.**
 
 <img src="assets/icon.png" alt="Interval Plain icon" width="96">
