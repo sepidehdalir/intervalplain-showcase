@@ -2,7 +2,7 @@
 
 **Your routine. Today’s time.** A native iPhone/iPad workflow for fitting a reusable routine to the available time while preserving chosen stages and the original routine.
 
-**October19,2026: build4 prepared, Apple validation in progress.** Build3 remains rejected under4.3(a), with its first Board appeal pending. No new submission, approval or public release is claimed.
+**October19,2026 at17:54PDT: version1.0(4) and Lifetime Pro resubmitted; both Waiting for Review.** Apple validation/upload/processing passed; twelve revised screenshots and planner metadata included. Manual release enabled. Build3’s prior4.3(a) rejection/Board appeal is historical; no duplicate appeal filed. No approval or public release claimed.
 
 <img src="assets/icon.png" alt="Interval Plain icon" width="96">
 
