@@ -1,38 +1,27 @@
-# Interval Plain · Routine Timer
+# Interval Plain · Time-fit Routine Planner
 
-**Current App Review status — October 19, 2026:** Rejected under Guideline 4.3(a). Apple confirmed receipt of an app-specific App Review Board appeal. Decision pending; not publicly released.
+**Your routine. Today’s time.** A native iPhone/iPad workflow for fitting a reusable routine to the available time while preserving chosen stages and the original routine.
 
-
-**A native iPhone and iPad timer for work/rest routines, spoken cues and a reusable local library.**
+**October19,2026: build4 prepared, Apple validation in progress.** Build3 remains rejected under4.3(a), with its first Board appeal pending. No new submission, approval or public release is claimed.
 
 <img src="assets/icon.png" alt="Interval Plain icon" width="96">
 
-One reusable custom routine is free. Optional Lifetime Pro adds multiple saved routines, duplication and reordering. The interface keeps the current stage, remaining time and next stage together, with clear foreground timing and interruption behavior.
+- Set minutes/seconds, keep important stages fixed and choose minimums for flexible stages.
+- Inspect every original/fitted duration, explicit unused seconds and infeasible minimums.
+- Reuse a separate plan, share actual timing text and recover the fitted sequence paused.
+- iPad gets a two-column planning workspace; phone and larger text stack naturally.
+- Time fitting and one reusable routine are free. Optional Lifetime Pro adds a named library, duplication and ordering with one purchase.
 
-## Product and engineering
-
-Built with **Swift, SwiftUI, AVFoundation and StoreKit 2**, targeting iOS/iPadOS 15+.
-
-- Continuous-clock timing with explicit detection of missed stage boundaries.
-- On-device speech and atomic local persistence.
-- Paused recovery after interruptions, with clear foreground-use expectations.
-- Verified entitlement handling and a useful free routine before the optional upgrade.
-- Separate iPhone and iPad marketing compositions using genuine app captures.
-
-| iPhone campaign | iPad campaign |
+| iPhone | iPad |
 | --- | --- |
-| <img src="assets/campaign/iphone/01-runner.png" alt="iPhone routine runner marketing frame" width="280"> | <img src="assets/campaign/ipad/01-runner.png" alt="iPad routine runner marketing frame" width="280"> |
+| <img src="assets/time-fit/iphone/01-home.png" alt="Six-minute routine fitted to four minutes" width="280"> | <img src="assets/time-fit/ipad/02-planner.png" alt="Real tablet budget and fixed-stage controls" width="280"> |
 
-## Release status
+Swift, SwiftUI, AVFoundation and StoreKit2; iOS/iPadOS15+ minimum. Deterministic bounded allocation with stable whole-second rounding, validated atomic persistence and checkpoint recovery. Keep the app open while timing; locking/leaving pauses. No deadline/background-cue guarantee.
 
-**Submitted for App Review on October 15, 2026 at 23:57 PDT:** version **1.0 (3)** and **Lifetime Pro** were **Waiting for Review** at the verified submission receipt. Manual release is enabled. The app is not yet verified as publicly available; there is no live App Store download link here.
+Build4: 25 core tests, native model and local StoreKit tests, phone/iPad workflows, accessibility and small-phone iOS17 maximum-text checks passed. Current physical-device, actual iOS15 and Apple-server billing remain unverified. TestFlight skipped by publisher instruction.
 
-TestFlight is skipped by publisher instruction. Compilation, runtime checks, local purchase fixtures, submission and public release are separate verification milestones; this page does not claim a production purchase or released build.
+No account, ads, remote analytics or developer upload service. Routines/plans stay on-device unless deliberately shared or included in a device backup. Commercial source remains private; this repository contains curated product material.
 
-## Privacy and source
+[Product and complete campaigns](https://sepidehdalir.github.io/intervalplain-showcase/) · [iOS portfolio](https://github.com/sepidehdalir/ios-app-portfolio) · [Support](support.html) · [Privacy](privacy.html)
 
-No account, advertising, product backend or developer data collection. Commercial engineering source is private; this repository contains curated product, support, privacy and marketing material.
-
-[All iOS case studies](https://github.com/sepidehdalir/ios-app-portfolio) · [Support](support.html) · [Privacy](privacy.html)
-
-**Sepideh Javanbakht Dalir** · [arvinify.com](https://www.arvinify.com) · [hello@arvinify.com](mailto:hello@arvinify.com)
+Sepideh Javanbakht Dalir · [arvinify.com](https://www.arvinify.com) · [hello@arvinify.com](mailto:hello@arvinify.com)
