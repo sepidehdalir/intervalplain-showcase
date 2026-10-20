@@ -2,7 +2,7 @@
 
 **Your routine. Today’s time.** A native iPhone/iPad workflow for fitting a reusable routine to the available time while preserving chosen stages and the original routine.
 
-**October19,2026 at17:54PDT: version1.0(4) and Lifetime Pro resubmitted; both Waiting for Review.** Apple validation/upload/processing passed; twelve revised screenshots and planner metadata included. Manual release enabled. Build3’s prior4.3(a) rejection/Board appeal is historical; no duplicate appeal filed. No approval or public release claimed.
+**October 19, 2026 at 5:54 PM PDT: version 1.0 (4) and Lifetime Pro resubmitted; both Waiting for Review.** Apple validation/upload/processing passed; twelve revised screenshots and planner metadata included. Manual release enabled. Build 3’s prior 4.3(a) rejection/Board appeal is historical; no duplicate appeal filed. No approval or public release claimed.
 
 <img src="assets/icon.png" alt="Interval Plain icon" width="96">
 
@@ -16,9 +16,9 @@
 | --- | --- |
 | <img src="assets/time-fit/iphone/01-home.png" alt="Six-minute routine fitted to four minutes" width="280"> | <img src="assets/time-fit/ipad/02-planner.png" alt="Real tablet budget and fixed-stage controls" width="280"> |
 
-Swift, SwiftUI, AVFoundation and StoreKit2; iOS/iPadOS15+ minimum. Deterministic bounded allocation with stable whole-second rounding, validated atomic persistence and checkpoint recovery. Keep the app open while timing; locking/leaving pauses. No deadline/background-cue guarantee.
+Swift, SwiftUI, AVFoundation and StoreKit 2; iOS/iPadOS 15+ minimum. Deterministic bounded allocation with stable whole-second rounding, validated atomic persistence and checkpoint recovery. Keep the app open while timing; locking/leaving pauses. No deadline/background-cue guarantee.
 
-Build4: 25 core tests, native model and local StoreKit tests, phone/iPad workflows, accessibility and small-phone iOS17 maximum-text checks passed. Current physical-device, actual iOS15 and Apple-server billing remain unverified. TestFlight skipped by publisher instruction.
+Build 4: 25 core tests, native model and local StoreKit tests, phone/iPad workflows, accessibility and small-phone iOS17 maximum-text checks passed. Current physical-device, actual iOS15 and Apple-server billing remain unverified. TestFlight skipped by publisher instruction.
 
 No account, ads, remote analytics or developer upload service. Routines/plans stay on-device unless deliberately shared or included in a device backup. Commercial source remains private; this repository contains curated product material.
 
